@@ -12,13 +12,13 @@ namespace WebServerDemo.CalculatorService {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://www.c-sharpcorner.com/webservices", ConfigurationName="CalculatorService.CalculatorSoap")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://www.testing.com/webservices", ConfigurationName="CalculatorService.CalculatorSoap")]
     public interface CalculatorSoap {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://www.c-sharpcorner.com/webservices/Add", ReplyAction="*")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://www.testing.com/webservices/Add", ReplyAction="*")]
         int Add(int FirstInteger, int SecondInteger);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://www.c-sharpcorner.com/webservices/Add", ReplyAction="*")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://www.testing.com/webservices/Add", ReplyAction="*")]
         System.Threading.Tasks.Task<int> AddAsync(int FirstInteger, int SecondInteger);
     }
     

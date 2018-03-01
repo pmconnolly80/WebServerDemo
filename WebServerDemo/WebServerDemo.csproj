@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Calculator.asmx" />
+    <Content Include="WebForm1.aspx" />
     <None Include="Service References\CalculatorService\Calculator.disco" />
     <None Include="Service References\CalculatorService\configuration91.svcinfo" />
     <None Include="Service References\CalculatorService\configuration.svcinfo" />
@@ -129,6 +130,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
