@@ -18,9 +18,9 @@ namespace WebServerDemo
     {
 
         [WebMethod]
-        public int Add(int FirstNumber, int SecondNumber)
+        public int Add(int FirstInteger, int SecondInteger)
         {
-            return FirstNumber + SecondNumber;
+            return FirstInteger + SecondInteger;
         }
     }
 }
